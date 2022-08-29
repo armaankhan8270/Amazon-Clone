@@ -5,3 +5,7 @@
     width: 100%;
     height: 100%;
 }
+div>h1>h1{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}

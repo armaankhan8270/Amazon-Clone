@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header';
+import { ContextProvider,  } from './Context/ProductContext';
+import { ini } from './Context/reducer';
+import Basket from './Components/Basket';
+// import reducer, { initialstate } from './Context/reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+    <ContextProvider  ini={ini}>
     <BrowserRouter>
   {/* <App /> */}
     <Routes>
@@ -19,11 +23,13 @@ root.render(
       <Route path='/Contact' element={('Contact')} />
       <Route path='/Product' element={('Product')} />
       <Route path='/Login' element={('Login')} />
+      <Route path='/Basket' element={(<Basket/>)} />
       {/* <h1>Armaa</h1> */}
     </Routes>
+
     </BrowserRouter>
+    </ContextProvider>
   
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

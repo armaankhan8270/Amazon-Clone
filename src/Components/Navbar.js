@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-cyan-900 sticky z-50 top-[80px] text-white p-2 gap-5 h-12 w-full shadow-xl flex  -mt-2'>
+    <div className='bg-slate-800 sticky z-50 top-[80px] text-white p-2 gap-5 h-12 w-full shadow-xl flex  -mt-2'>
       <h1>name</h1>
       <h1>cloth</h1>
       <h1>watch</h1>
