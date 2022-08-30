@@ -49,7 +49,7 @@ const ImageSlider = () => {
           company="acer"
         />
         <Product
-          title={`Lenovo Legion 5 AMD Ryzen 7 5800H 15.6" (39.62cm) FHD IPS Gaming Laptop (16GB/2TB SSD/6GB NVIDIA RTX 3060/165Hz/Windows 11/Office 2021/RGB Backlit/3months Game Pass/Phantom Blue/2.4Kg), 82JU010NIN`}
+          title={`Sofa`}
           id="123456"
           img="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_furniture_pc_cc_379x304_in-en._SY304_CB643322439_.jpg"
           rating="⭐⭐⭐⭐⭐"
