@@ -1,9 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className='bg-slate-800 sticky z-50 top-[80px] text-white p-2 gap-5 h-12 w-full shadow-xl flex  -mt-2'>
-      <h1>name</h1>
+      <Link to='/pop'>
+
+      <h1 >name</h1>
+      </Link>
+      <Link to='/'>
+
+      <h1 >Home</h1>
+      </Link>
       <h1>cloth</h1>
       <h1>watch</h1>
       <h1>Grocery</h1>

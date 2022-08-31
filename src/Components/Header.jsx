@@ -25,7 +25,11 @@ const Header = () => {
 <input type="text" name="" id=""placeholder='serach' className='w-[50%] text-black  text-2xl focus:outline-none  outline-none shadow-xl mb-2 ml-4 rounded text-white border-r-2 border-black' />
 {/* <img src={Search} alt="" className='mb-2 w-4 rounded  bg-black'/> */}
 <SearchIcon className='w-4 rounded -ml-2 mb-1' style={{backgroundColor:"#E8A317 ",fontSize:'50px'}}/>
-<span className='ml-5 grid col-span-1 capitalize  text-xs'>hello sign in <span className='text-sm font-bold'>account & list </span></span>
+ <Link to='/Signin'>
+
+ <span className='ml-5 grid col-span-1 capitalize  text-xs'>hello sign in <span className='text-sm font-bold'>account & list </span></span>
+ </Link>
+
 <span className='ml-5 grid col-span-1 capitalize text-xs'>Return <span className='font-bold'>orders</span></span>
 <Link to='/Basket'>
 <ShoppingCartIcon  className='ml-5 rounded-lg shadow-xl' style={{backgroundColor:" ",fontSize:'52px'}}/></Link>
