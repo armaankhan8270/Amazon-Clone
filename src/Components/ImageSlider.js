@@ -9,7 +9,7 @@ import Product from "./Product";
 
 const ImageSlider = () => {
   // const [index, setindex] = useState(0)
-  const [number, setnumber] = useState(0);
+  const [number, setnumber] = useState(3);
   const img = [
     img1,
     img2,

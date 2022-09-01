@@ -7,6 +7,8 @@ import Header from './Components/Header';
 import { ContextProvider,  } from './Context/ProductContext';
 import { ini } from './Context/reducer';
 import Basket from './Components/Basket';
+import Signin from './Components/Signin';
+import Signup from './Components/Signup';
 // import reducer, { initialstate } from './Context/reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +19,7 @@ root.render(
     <Routes>
       <Route path='/' element={(<App/>)}/>
       <Route path='/Login' element={('Login')} />
-      <Route path='/Signin' element={('Login')} />
+      <Route path='/Signin' element={(<Signin/>)} />
       <Route path='/Header' element={(<Header/>)} />
       <Route path='/Home' element={('Home')} />
       <Route path='/Checkout' element={('Checkout')} />
@@ -25,6 +27,7 @@ root.render(
       <Route path='/Product' element={('Product')} />
       <Route path='/Login' element={('Login')} />
       <Route path='/Basket' element={(<Basket/>)} />
+      <Route path='/Signup' element={(<Signup/>)} />
       {/* <h1>Armaa</h1> */}
     </Routes>
 

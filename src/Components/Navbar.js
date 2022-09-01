@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='bg-slate-800 sticky z-50 top-[80px] text-white p-2 gap-5 h-12 w-full shadow-xl flex  -mt-2'>
+    <div className='bg-slate-800 sticky z-50 top-[60px] text-white p-2 gap-5 h-8 w-full shadow-xl flex  -mt-2'>
       <Link to='/pop'>
 
       <h1 >name</h1>
