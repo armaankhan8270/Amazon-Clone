@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import Header from './Components/Header';
 import { ProductsContext } from './Context/ProductContext';
+// import Example from './Components/Popup';
 
 // import {Header} from './Components/Header';
 
@@ -13,9 +14,9 @@ function App() {
     <div className="App">
     <Header/> 
     <Navbar/>
-    <ImageSlider/>
+    <ImageSlider className='-mt-96'/>
+    {/* <Example/> */}
       <h1 className="text-3xl text-center font-bold underline">
-    Lets Build Amzon Clone 
 
     </h1>
    
