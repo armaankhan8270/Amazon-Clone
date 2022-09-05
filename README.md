@@ -1,4 +1,8 @@
-live at: https://amzonclone-c9d62.web.app/![Screenshot (259)](https://user-images.githubusercontent.com/98936216/188470474-200d800f-a5eb-450e-9246-bb32d86193e2.png)
+live at: https://amzonclone-c9d62.web.app/
+
+
+
+![Screenshot (259)](https://user-images.githubusercontent.com/98936216/188470474-200d800f-a5eb-450e-9246-bb32d86193e2.png)
 ![Screenshot (258)](https://user-images.githubusercontent.com/98936216/188470484-0f455896-df55-4861-b75d-e320a1564fad.png)
 ![Screenshot (257)](https://user-images.githubusercontent.com/98936216/188470492-988f5572-2199-451f-ad73-8c866f1b7a94.png)
 ![Screenshot (256)](https://user-images.githubusercontent.com/98936216/188470530-c9e9cf7b-3c8f-4cad-9ca7-fd5b8bed977d.png)
